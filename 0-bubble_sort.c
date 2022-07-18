@@ -1,13 +1,14 @@
 #include "sort.h"
 
 /**
- * Author: Opeyemi Akande
- *
- * bubble_sort - a function to sort an array of integers using the 
+ * bubble_sort - a function to sort an array of integers using the
  * bubble sort algorithm
  *
+ * Author: Opeyemi Akande
  * @array: the array of integers to be sorted
  * @size: the size of the array
+ *
+ * Return: Nothing
  */
 void bubble_sort(int *array, size_t size)
 {
@@ -28,7 +29,7 @@ void bubble_sort(int *array, size_t size)
 				sorted = 1;
 			}
 		}
-		
+
 		if (sorted == 0)
 			break;
 	}
